@@ -1,29 +1,46 @@
 # Folder layout
-./dataset:
+
+- dataset:
+
 ./dataset/CMIP5/CMIP5.input.36mn.1861_2001.nc: the input of the CMIP5 dataset.
+
 ./dataset/CMIP5/CMIP5.label.nino34.12mn_3mv.1863_2003.nc: the label of the CMIP5 dataset.
+
 ./dataset/SODA/SODA.input.36mn.1871_1970.nc: the input of the SODA dataset.
+
 ./dataset/SODA/SODA.label.nino34.12mn_3mv.1873_1972.nc: the label of the SODA dataset.
+
 ./dataset/GODAS/GODAS.input.36mn.1980_2015.nc: the input of the GODAS dataset.
+
 ./dataset/GODAS/GODAS.label.12mn_3mv.1982_2017.nc: the label of the GODAS dataset.
 
-./figure:
+
+- figure:
+
 the figures.
 
-./model:
+
+- model:
+
 the parameters of the models.
 
-./pred_label:
+
+- pred_label:
+
 the ensembled predict result and the true label.
 
-./preds
+- preds:
+
 the predict result of every model, the number of model is 4.
 
-./code.py
+
+- code.py:
+
 the code. 
 
-./readme
-readme.
+
+- README.md
+README.md
 
 # Where the data came from?
 SODA, https://climatedataguide.ucar.edu/climate-data/soda-simple-ocean-data-assimilation
