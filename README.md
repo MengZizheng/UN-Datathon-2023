@@ -44,9 +44,13 @@ README.md
 
 # Where the data came from?
 SODA, https://climatedataguide.ucar.edu/climate-data/soda-simple-ocean-data-assimilation
+
 GODAS, https://www.esrl.noaa.gov/psd/data/gridded/data.godas.html
+
 ERA-Interim, https://apps.ecmwf.int/datasets/data/interim-full-daily
+
 NMME phase 1, https://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/
+
 The CMIP5 database, https://esgf-node.llnl.gov/projects/cmip5/
 
 # What is mindspore?
